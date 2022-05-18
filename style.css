@@ -44,7 +44,7 @@ body{
     flex: 1 1 0;
 }
 
-.title {
+.first-sector .title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
@@ -75,4 +75,95 @@ body{
 .title-sector img {
     height: 250px;
     width: auto;
+}
+
+
+
+.second-sector {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px 50px;
+}
+
+.second-sector .title{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center
+}
+
+.info-parts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.part-1,
+.part-2,
+.part-3,
+.part-4 {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 200px;
+    border: #3882F6 solid 5px;
+    border-radius: 8px;
+    padding: 16px;
+    padding-bottom: 8px;
+}
+
+.part-1 div,
+.part-2 div,
+.part-3 div,
+.part-4 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.part-1 img,
+.part-2 img,
+.part-3 img,
+.part-4 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.part-1 p,
+.part-2 p,
+.part-3 p,
+.part-4 p {
+    text-align: center;
+    flex: 1 0;
+}
+
+
+
+.third-sector {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0;
+}
+
+.owner {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.owner p {
+    margin: 0;
 }
