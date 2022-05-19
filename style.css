@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .first-sector {
@@ -27,6 +30,7 @@ body{
 .header-links {
     display: flex;
     gap: 16px;
+    padding: 16px;
 }
 
 .header-links a{
@@ -70,11 +74,12 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-left: 24px;
 }
 
 .title-sector img {
-    height: 250px;
-    width: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -109,7 +114,7 @@ body{
     flex-direction: column;
     height: 250px;
     width: 200px;
-    border: #3882F6 solid 5px;
+    border: #1F2937 solid 5px;
     border-radius: 8px;
     padding: 16px;
     padding-bottom: 8px;
@@ -166,4 +171,55 @@ body{
 
 .owner p {
     margin: 0;
+}
+
+
+
+.fourth-sector {
+    padding: 80px 160px;
+}
+
+.sector-box {
+    background: #3882F6;
+    border-radius: 16px;
+    padding: 48px 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sector-box button {
+    background: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-title {
+    color: #F9FAF8;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.fourth-subtitle {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+
+
+.footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    letter-spacing: 3px;
 }
